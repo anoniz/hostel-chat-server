@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./", // Set rootDir to the project root to include all TypeScript files
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "backend/src",
+      "frontend/src",
+      "shared" // Include the shared directory
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
