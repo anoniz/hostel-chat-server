@@ -28,6 +28,10 @@ export default class UserManager {
     public getUser(username: string): User | undefined {
         return this.users.get(username);
     }
+
+    public getAllUsers(): User[] {
+        return Array.from(this.users.values());
+    }
 }
 
 
